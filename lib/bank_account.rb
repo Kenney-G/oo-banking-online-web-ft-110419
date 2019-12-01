@@ -3,7 +3,6 @@ class BankAccount
       @balance = []
   def initialize(name="Avi", balance = 1000, status = "open")
     @name = name
-    @balance = []
     @status = status
   end
   
