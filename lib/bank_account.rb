@@ -9,4 +9,5 @@ class BankAccount
   
   def deposit(amount)
     %w(balance) << amount
+  end
 end
