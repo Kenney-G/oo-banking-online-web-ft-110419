@@ -8,7 +8,7 @@ class BankAccount
     
   end
   
-  def deposit(amount)
+  def deposit(deposited)
      self.balance = balance + amount
   end
 end
