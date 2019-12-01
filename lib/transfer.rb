@@ -6,4 +6,10 @@ class Transfer
     @amount = amount
     @status = pending
   end
+  
+  def status
+    if account = invalid || if amount <= 0 then 
+      status = "rejected"
+    else
+      status = "completed"
 end
