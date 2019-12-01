@@ -15,4 +15,5 @@ class Transfer
     else
       status = "reversed"
     end
+  end
 end
