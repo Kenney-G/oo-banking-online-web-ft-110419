@@ -3,4 +3,5 @@ class BankAccount
   
   def initialize(holder="Avi")
     @holder = holder
+  end
 end
