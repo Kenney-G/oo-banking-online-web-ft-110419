@@ -4,5 +4,6 @@ class Transfer
   def initialize(account, amount, status)
     @account = account
     @amount = amount
+    @status = pending
   end
 end
