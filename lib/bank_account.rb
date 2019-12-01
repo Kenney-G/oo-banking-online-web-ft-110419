@@ -7,6 +7,6 @@ class BankAccount
     @status = status
   end
   
-  def deposit
-    
+  def deposit(amount)
+    %w(balance) << amount
 end
