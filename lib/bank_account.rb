@@ -5,7 +5,7 @@ class BankAccount
     @name = name
     @status = status
     @balance = balance
-    @current_balance = []
+    @current_balance = [] << balance
   end
   
   def deposit(amount)
