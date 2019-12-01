@@ -10,6 +10,9 @@ class Transfer
   def status
     if account = invalid || if amount <= 0 then 
       status = "rejected"
-    else
+    elsif account = valid && amount >=1 
       status = "completed"
+    else
+      status = "reversed"
+    end
 end
